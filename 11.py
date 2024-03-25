@@ -1,0 +1,6 @@
+kısa = input("Kısa kenar uzunluğu: ")
+uzun = input("Uzun kenar uzunluğu: ")
+çevre = (float(kısa)*2)+ (float(uzun)*2)
+alan = (float(kısa))*(float(uzun))
+print("Diktötgenin çevresi :{0}",çevre)
+print("Dikdörtgenin alanı:{0}",alan)
